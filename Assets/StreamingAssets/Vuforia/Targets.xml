@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Ticket" size="0.200000 0.360458" />
+    <ImageTarget name="jamesEnsorIconEnd" size="0.500000 0.500000" />
+    <ImageTarget name="JamesEnsorIcon" size="1.000000 1.000000" />
+    <ImageTarget name="JamesEnsor_SelfPortraitUpscale" size="0.500000 0.629699" />
+    <ImageTarget name="JamesEnsor_Woman" size="0.500000 0.596975" />
+    <ImageTarget name="JamesEnsor_Masks" size="0.500000 0.729167" />
+    <ImageTarget name="JamesEnsor_TheIntrigue" size="0.290000 0.163247" />
+    <ImageTarget name="Joker" size="0.057000 0.085628" />
+  </Tracking>
+</QCARConfig>

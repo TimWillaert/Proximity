@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 25bcf03e517d81b418611c5df75787bf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back
+    100002: bottom
+    100004: //RootNode
+    100006: Head
+    100008: Hips
+    100010: JamesEnsorModel:Beards
+    100012: JamesEnsorModel:Body
+    100014: JamesEnsorModel:Bottoms
+    100016: JamesEnsorModel:default1
+    100018: JamesEnsorModel:Eyes
+    100020: JamesEnsorModel:Hair
+    100022: JamesEnsorModel:Moustaches
+    100024: JamesEnsorModel:Shoes
+    100026: JamesEnsorModel:Tops
+    100028: left
+    100030: LeftArm
+    100032: LeftFoot
+    100034: LeftForeArm
+    100036: LeftHand
+    100038: LeftLeg
+    100040: LeftShoulder
+    100042: LeftToeBase
+    100044: LeftUpLeg
+    100046: Neck
+    100048: Reference
+    100050: RightArm
+    100052: RightFoot
+    100054: RightForeArm
+    100056: RightHand
+    100058: RightLeg
+    100060: RightShoulder
+    100062: RightToeBase
+    100064: RightUpLeg
+    100066: Spine
+    100068: Spine1
+    100070: Spine2
+    100072: Spine3
+    400000: back
+    400002: bottom
+    400004: //RootNode
+    400006: Head
+    400008: Hips
+    400010: JamesEnsorModel:Beards
+    400012: JamesEnsorModel:Body
+    400014: JamesEnsorModel:Bottoms
+    400016: JamesEnsorModel:default1
+    400018: JamesEnsorModel:Eyes
+    400020: JamesEnsorModel:Hair
+    400022: JamesEnsorModel:Moustaches
+    400024: JamesEnsorModel:Shoes
+    400026: JamesEnsorModel:Tops
+    400028: left
+    400030: LeftArm
+    400032: LeftFoot
+    400034: LeftForeArm
+    400036: LeftHand
+    400038: LeftLeg
+    400040: LeftShoulder
+    400042: LeftToeBase
+    400044: LeftUpLeg
+    400046: Neck
+    400048: Reference
+    400050: RightArm
+    400052: RightFoot
+    400054: RightForeArm
+    400056: RightHand
+    400058: RightLeg
+    400060: RightShoulder
+    400062: RightToeBase
+    400064: RightUpLeg
+    400066: Spine
+    400068: Spine1
+    400070: Spine2
+    400072: Spine3
+    2000000: back
+    2000002: bottom
+    2000004: left
+    2100000: JamesEnsorModel_Body2
+    2100002: JamesEnsorModel_Hair2
+    2100004: JamesEnsorModel_Beard1
+    2100006: JamesEnsorModel_Top1
+    2100008: JamesEnsorModel_Moustache1
+    2100010: JamesEnsorModel_Bottom1
+    2100012: JamesEnsorModel_Shoes2
+    4300000: JamesEnsorModel:Body
+    4300002: JamesEnsorModel:default1
+    4300004: JamesEnsorModel:Eyes
+    4300006: JamesEnsorModel:Hair
+    4300008: JamesEnsorModel:Beards
+    4300010: JamesEnsorModel:Tops
+    4300012: JamesEnsorModel:Moustaches
+    4300014: JamesEnsorModel:Bottoms
+    4300016: JamesEnsorModel:Shoes
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: JamesEnsorModel:Beards
+    13700002: JamesEnsorModel:Body
+    13700004: JamesEnsorModel:Bottoms
+    13700006: JamesEnsorModel:default1
+    13700008: JamesEnsorModel:Eyes
+    13700010: JamesEnsorModel:Hair
+    13700012: JamesEnsorModel:Moustaches
+    13700014: JamesEnsorModel:Shoes
+    13700016: JamesEnsorModel:Tops
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JamesEnsorModel_Beard1
+    second: {fileID: 2100000, guid: 6b303d8a31ffdde4b882de7b17407a95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JamesEnsorModel_Body2
+    second: {fileID: 2100000, guid: 77d1ed6cacaf5d840a356582350ceab9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JamesEnsorModel_Bottom1
+    second: {fileID: 2100000, guid: 3a4df73d176cb3a49ba18bcf25669991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JamesEnsorModel_Hair2
+    second: {fileID: 2100000, guid: a364137a123857c42ba3d1f06bd72b7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JamesEnsorModel_Moustache1
+    second: {fileID: 2100000, guid: 20747bcb6626f8349884b39c02e6a8b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JamesEnsorModel_Shoes2
+    second: {fileID: 2100000, guid: 6e496b08e0def5541b29c1cfb79f1bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JamesEnsorModel_Top1
+    second: {fileID: 2100000, guid: bd90c41b74118734192bda1d52fbc93d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1181
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
