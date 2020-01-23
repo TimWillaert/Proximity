@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script fades in the main app after the splashscreen
 public class FadeInCamera : MonoBehaviour
 {
 
+    //Variable instantiation
     public CanvasGroup canvas;
 
+    //Start function, runs before first frame
     private void Start()
     {
         StartCoroutine(FadeOut());

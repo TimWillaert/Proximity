@@ -2,15 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script is for the splashscreen
 public class SceneManager : MonoBehaviour
 {
+
+    //Variable instantiation
     public CanvasGroup canvas;
 
+    //Start function, runs before first frame
     private void Start()
     {
         StartCoroutine(Fade());
     }
 
+    //Fades the splashscreen in and o ut
     IEnumerator Fade()
     {
         for(float f = 0.05f; f <= 1.05f; f += 0.05f)
@@ -24,6 +29,7 @@ public class SceneManager : MonoBehaviour
             canvas.alpha = f;
             yield return new WaitForSeconds(0.025f);
         }
+        //Switches to the camera scene
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 

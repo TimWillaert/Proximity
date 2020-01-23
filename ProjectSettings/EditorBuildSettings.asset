@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARCamera.unity
     guid: fade7ac4fca8be84cb388c0323f9f622
+  - enabled: 1
+    path: Assets/Scenes/iBeaconServer.unity
+    guid: ee7a11b11ba25824cbc8f4163fd15ffc
   m_configObjects: {}

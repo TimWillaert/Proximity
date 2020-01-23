@@ -4,17 +4,21 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+//This script allows the user to delete his data
 public class ClearCache : MonoBehaviour
 {
 
+    //Variable instantiation
     public Button button;
     public Button ja;
     public Button nee;
     public GameObject panelDark;
     public GameObject panelLight;
 
+    //Start function, runs before first frame
     void Start()
     {
+        //Looks for Button components and adds action listeners to them
         Button btn = button.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
 
@@ -25,6 +29,7 @@ public class ClearCache : MonoBehaviour
         neebtn.onClick.AddListener(NeeClick);
     }
 
+    //Different actions for different buttons
     void TaskOnClick()
     {
         panelDark.SetActive(true);
@@ -33,6 +38,7 @@ public class ClearCache : MonoBehaviour
 
     void JaClick()
     {
+        //Removes player-saved data
         PlayerPrefs.DeleteAll();
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }

@@ -4,9 +4,11 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+//This script handles the tutorial
 public class TutorialScript : MonoBehaviour, IPointerClickHandler
 {
 
+    //Variable instantiation
     public CanvasGroup canvas;
     public GameObject part1;
     public GameObject part2;
@@ -14,6 +16,7 @@ public class TutorialScript : MonoBehaviour, IPointerClickHandler
 
     int state;
 
+    //Start function, runs before first frame
     private void Start()
     {
         state = 0;
@@ -27,6 +30,7 @@ public class TutorialScript : MonoBehaviour, IPointerClickHandler
         }
     }
 
+    //Fades in the tutorial
     IEnumerator FadeIn()
     {
         yield return new WaitForSeconds(1f);
@@ -37,6 +41,7 @@ public class TutorialScript : MonoBehaviour, IPointerClickHandler
         }
     }
 
+    //Fades out the tutorial
     IEnumerator FadeOut()
     {
         for (float f = 0.7f; f > 0f; f -= 0.07f)
@@ -47,6 +52,7 @@ public class TutorialScript : MonoBehaviour, IPointerClickHandler
         gameObject.SetActive(false);
     }
 
+    //Handles user clicks. Checks if the user clicks on the left or right side of the screen to go to the next page or previous page
     public void OnPointerClick(PointerEventData eventData)
     {
         string touch = eventData.position.ToString().Remove(0, 1);

@@ -4,48 +4,22 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+//This script is for the different buttons in the app that appear multiple times (e.g the close button in the menu)
 public class ButtonScript : MonoBehaviour, IPointerClickHandler
 {
 
+    //Variable instantiation
     public GameObject menu;
     public GameObject uitleg;
     public GameObject camera;
     public GameObject main;
     string state;
 
-    void Update()
-    {
-        // Make sure user is on Android platform
-        if (Application.platform == RuntimePlatform.Android)
-        {
-
-            // Check if Back was pressed this frame
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                if(state != "Camera")
-                {
-                    if(state == "Settings")
-                    {
-                        menu.SetActive(false);
-                        uitleg.SetActive(false);
-                        state = "Camera";
-                        camera.SetActive(true);
-                    }
-                    else
-                    {
-                        menu.SetActive(true);
-                        uitleg.SetActive(false);
-                        state = "Settings";
-                        camera.SetActive(false);
-                    }
-                }
-            }
-        }
-    }
-
+    //Runs when the user clicks on a button
     public void OnPointerClick(PointerEventData eventData)
     {
 
+        //If-statements check which button the user clicked and performs the proper action
         if(gameObject.tag == "Close")
         {
             menu.SetActive(false);
@@ -69,6 +43,11 @@ public class ButtonScript : MonoBehaviour, IPointerClickHandler
             main.SetActive(false);
             state = "Settings";
             camera.SetActive(false);
+        }
+
+        if(gameObject.tag == "HostBeacon")
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(2);
         }
 
     }

@@ -4,9 +4,11 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
 
+//This script handles the animations whenever a user scans a painting
 public class VideoScript : MonoBehaviour
 {
 
+    //Variable instantiation
     public MeshRenderer meshrenderer;
     public VideoPlayer player;
     public string title;
@@ -26,17 +28,18 @@ public class VideoScript : MonoBehaviour
 
     private bool tekstSet = false;
 
-    // Start is called before the first frame update
+    //Start function, runs before each frame
     void Start()
     {
         player.enabled = false;
+        //Get value for each painting from stored data, 0 if it hasn't been scanned, 1 otherwise
         Schilderij1 = PlayerPrefs.GetInt("Schilderij1");
         Schilderij2 = PlayerPrefs.GetInt("Schilderij2");
         Schilderij3 = PlayerPrefs.GetInt("Schilderij3");
         Schilderij4 = PlayerPrefs.GetInt("Schilderij4");
     }
 
-    // Update is called once per frame
+    //Update function, runs each frame
     void Update()
     {
 
@@ -57,6 +60,8 @@ public class VideoScript : MonoBehaviour
             string concat3 = "AuthorSchilderij" + number;
 
             PlayerPrefs.SetInt(concat1, 1);
+
+            //Enables the painting the collection
 
             GameObject collectiontitle = collection.transform.Find(concat2).gameObject;
             collectiontitle.GetComponent<Text>().text = title;

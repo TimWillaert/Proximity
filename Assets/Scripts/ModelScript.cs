@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script is for the 3D James Ensor behaviour
 public class ModelScript : MonoBehaviour
 {
+
+    //Variable instantiation
     public GameObject parent;
     private SkinnedMeshRenderer meshrenderer;
     private AudioSource audiosource;
@@ -11,7 +14,7 @@ public class ModelScript : MonoBehaviour
 
     bool isPlaying;
 
-    // Start is called before the first frame update
+    //Start function, runs before first frame
     void Start()
     {
         meshrenderer = gameObject.GetComponent<SkinnedMeshRenderer>();
@@ -22,9 +25,11 @@ public class ModelScript : MonoBehaviour
         isPlaying = false;
     }
 
-    // Update is called once per frame
+    //Update function, runs each frame
     void Update()
     {
+
+        //If-statement checks if Ensor is already playing or not, and performs the proper actions
         if (meshrenderer.enabled == true && isPlaying == false)
         {
             audiosource.enabled = true;
